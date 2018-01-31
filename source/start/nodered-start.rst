@@ -1,0 +1,65 @@
+Setting up Node-RED
+===================
+
+If you are using our custom image, please skip the section below. Node-RED is already set up on your Raspberry Pi.
+
+Setting up Node-RED on Raspberry Pi
+-----------------------------------
+
+The easiest way to set up Node-RED on your Raspberry Pi is to use this command:
+
+.. code-block:: bash
+
+   $ bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
+
+You will also need to install some useful nodes as well:
+
+.. code-block:: bash
+
+   $ sudo npm install -g node-red-dashboard
+   $ sudo npm install -g node-red-contrib-python3-function
+   $ sudo npm install -g node-red-contrib-web-worldmap
+
+Setting up Node-RED on a Server
+-------------------------------
+
+The benefit of running Node-RED on a Raspberry Pi is that you can create flows that control the SenseHAT.  However, sometimes it is easier to have it run on a server.  To do this, you need to, first, make sure you have node.js set up on the server.  You can use this command to check:
+
+.. code-block:: bash
+   
+   $ node --version
+
+If you are running node.js version 6.x and above, you are ready to install Node-RED.  Otherwise, go to `the official node.js download page <https://nodejs.org/en/download/>`_ to install the LTS version.
+
+npm will be automatically installed with node.js.  On Linux systems, you can run the following command to install Node-RED.
+
+.. code-block:: bash
+   
+   $ sudo npm install -g node-red
+   $ sudo npm install -g node-red-dashboard
+   $ sudo npm install -g node-red-contrib-python3-function
+   $ sudo npm install -g node-red-contrib-web-worldmap
+
+On Windows systems, you can start a command line window with administrative privileges: Start Menu -> Windows System -> right click on Command Line and select run as administrator.  Then, run the following commands:
+
+.. code-block:: bash
+   
+   $ npm install -g node-red
+   $ npm install -g node-red-dashboard
+   $ npm install -g node-red-contrib-python3-function
+   $ npm install -g node-red-contrib-web-worldmap
+
+Setting Up Node-RED on the Cloud
+--------------------------------
+
+There are also benefits running Node-RED on a Cloud Platform.  The Node-RED official websites have exellent instructions on setting up Node-RED on different cloud platforms.  We recommend that you use the IBM Bluemix platform since IBM has better support for Node-RED.
+
+- `IBM Bluemix <https://nodered.org/docs/platforms/bluemix>`_
+- `Amazon Web Services <https://nodered.org/docs/platforms/aws>`_
+- `Microsoft Azure <https://nodered.org/docs/platforms/azure>`_
+
+
+Running Node-RED
+----------------
+
+To launch the Node-RED web-based flow editor, go to http://127.0.0.1:1880 in your browser.
