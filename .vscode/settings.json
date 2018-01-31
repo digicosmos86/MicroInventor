@@ -1,5 +1,5 @@
 {
     "restructuredtext.builtDocumentationPath" : "${workspaceRoot}/build/html",
-    "restructuredtext.confPath": "${workspaceRoot}/source",
+    "restructuredtext.confPath": "j:\\Dropbox\\MicroInventor/source",
     "restructuredtext.updateOnTextChanged"    : "false"
 }
