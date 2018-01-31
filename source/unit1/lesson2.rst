@@ -118,3 +118,10 @@ Answer the following questions:
 1. What is Raspberry Pi?
 2. What are the differences between software and hardware?
 3. What are some important pieces of software and hardware?
+4. Name the components of the Raspberry Pi on the picture below.
+
+.. image:: https://www.allaboutcircuits.com/uploads/articles/raspberry_pi_model_b+.jpg
+    :width: 800px
+    :height: 600px
+    :align: center
+    :alt: Raspberry Pi components.
