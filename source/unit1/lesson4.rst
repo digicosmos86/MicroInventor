@@ -118,7 +118,6 @@ Wrap up and reflection (20 minutes)
 We have just written our first program.  Our SenseHAT is working, and we have figured out how to display different messages, a series of messages, and show the messages in the different place.  Let's now come back to the code we have just written, and see what exactly is going on:
 
 .. code-block:: python
-    :linenos:
 
     from sense_hat import SenseHat  # import all SenseHAT related stuff from sense_hat library.
     sense = SenseHat()              # point all operations to the SenseHAT on this machine
