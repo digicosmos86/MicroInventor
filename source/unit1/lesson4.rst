@@ -84,13 +84,12 @@ The following picture could also be helpful:
 .. image:: https://cdn-reichelt.de/bilder/web/xxl_ws/A300/RPI_SENSE_HAT_3.png
     :align: center
     :alt: SenseHAT
-    :scale: 60%
 
 Light it up! (20 minutes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Now we will write a simple program to light the SenseHAT up!  We will get back to the code and explain what each part does, but for now, simply type in these following three lines into **Thonny Python** (the upper part of the window, not the shell).
 
-.. code-block:: python
+::
 
     from sense_hat import SenseHat
     sense = SenseHat()
@@ -118,6 +117,8 @@ Wrap up and reflection (20 minutes)
 We have just written our first program.  Our SenseHAT is working, and we have figured out how to display different messages, a series of messages, and show the messages in the different place.  Let's now come back to the code we have just written, and see what exactly is going on:
 
 .. code-block:: python
+    :linenos:
+    :emphasize-lines: 4
 
     from sense_hat import SenseHat  # import all SenseHAT related stuff from sense_hat library.
     sense = SenseHat()              # point all operations to the SenseHAT on this machine
