@@ -12,7 +12,7 @@ This lesson introduces students to the Raspberry Pi microcomputer.  The goal of 
 
 .. sidebar:: CT Concepts
 
-    .. rubric:: Computational Thinking Skiils:
+    .. rubric:: Computational Thinking Skills:
 
     - **Abstraction**: What is data?
 
@@ -27,7 +27,7 @@ This lesson introduces students to the Raspberry Pi microcomputer.  The goal of 
 The purpose of the lesson is to:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Famiarize the students with Raspberry Pi
+1. Familiarize the students with Raspberry Pi
 2. Distinguish the differences between hardware and software
 3. Introduce students to Python
 
@@ -62,7 +62,7 @@ Target Skills:
 
 .. admonition:: Students will be able to
 
-    1. SWBAT understand that Raspbrry Pi is a computer that runs linux
+    1. SWBAT understand that Raspberry Pi is a computer that runs linux
     2. SWBAT differentiate software and hardware
     3. SWBAT launch the Thonny Python IDE to program Python
 
@@ -92,7 +92,7 @@ Now ask the students to assemble the Raspberry Pis.  Introduce the cables and po
 - HDMI port on Raspberry Pi -> DVI port on monitor (secure the DVI port with the screws
 - MicroUSB port on Raspberry Pi -> AC Power
 - Power cable on monitor -> AC Power
-- USB ports on Rasbperry Pi - Keyboard and mouse
+- USB ports on Raspberry Pi - Keyboard and mouse
 
 Raspbian - the Software (15 minutes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

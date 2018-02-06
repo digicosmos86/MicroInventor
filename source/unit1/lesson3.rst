@@ -12,7 +12,7 @@ This lesson introduces the students to the basic mathematical and string operati
 
 .. sidebar:: CT Concepts
 
-    .. rubric:: Computational Thinking Skiils:
+    .. rubric:: Computational Thinking Skills:
 
     - **Abstraction**: What is computation?
 
@@ -71,7 +71,7 @@ Why do we call computers computers?  What do we mean by computation?  Begin the 
 
 Let's Code Together! (30 minutes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Start a Python shell (either in **Thonny Python** or the **termial**), and if possible, also start a Linux calculator on the side or use a real calculator, so students understand that Python can be used as a sophisticated calculator. Start typing in basic math operations, such as ``5 + 10`` and ``1.2-1.0``.  Addition and subtraction might be easy, but some students might not be familiar with the multiplication ``*`` opeartor, the division ``/`` operator, and/or the exponetiation operator ``**``.  Make sure they locate these operators on the keyboard.  The exponetiation operator can be used to obtain really large numbers, which Python handles well.  Make sure the students have the chance to experience that.
+Start a Python shell (either in **Thonny Python** or the **terminal**), and if possible, also start a Linux calculator on the side or use a real calculator, so students understand that Python can be used as a sophisticated calculator. Start typing in basic math operations, such as ``5 + 10`` and ``1.2-1.0``.  Addition and subtraction might be easy, but some students might not be familiar with the multiplication ``*`` operator, the division ``/`` operator, and/or the exponentiation operator ``**``.  Make sure they locate these operators on the keyboard.  The exponentiation operator can be used to obtain really large numbers, which Python handles well.  Make sure the students have the chance to experience that.
 
 .. tip:: Interesting result
 

@@ -11,7 +11,7 @@ This lesson is an overview of the structure of the course.  It takes the form of
 
 .. sidebar:: CT Concepts
 
-    .. rubric:: Computational Thinking Skiils:
+    .. rubric:: Computational Thinking Skills:
 
     - **Automation**
     - **Analysis**: identify errors in code

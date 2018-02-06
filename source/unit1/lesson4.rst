@@ -12,7 +12,7 @@ Having learned the basics of calculations, the students can now get started with
 
 .. sidebar:: CT Concepts
 
-    .. rubric:: Computational Thinking Skiils:
+    .. rubric:: Computational Thinking Skills:
 
     - **Abstraction**: What is output?
     - **Abstraction**: Functions
@@ -98,7 +98,7 @@ Now we will write a simple program to light the SenseHAT up!  We will get back t
 
 Watch for the following errors:
 
-- Captialization
+- Capitalization
 - Spelling
 - Underscore ``_`` in ``sense_hat``
 - Matching parentheses and quotation marks
@@ -131,7 +131,7 @@ First, we imported all SenseHAT related functionalities in Line 1.  Then, we cre
 
 Line 3 is the most important.  In Python, we use this "dot notation" to express "ask someone to do something".  So, ``sense.show_message()`` literally asks the SenseHAT to show a message on the LED matrix.  The latter part of this line ``.show_message()`` is a **function**.  For now, we can understand functions as "small programs" that does something on the things you give to them.  You give (pass) these things, which are called *parameters* in the parentheses ``()``.  Here, you pass the function a string, and this function tells python to put this string on to SenseHAT.
 
-To summarise, a **function** is a piece of program that has a *name* (e.g. ``show_message``, ``print``) and a set of *parentheses* ``()``. You can pass *parameters* into the *parentheses*, so the function will do things for you.
+To summarize, a **function** is a piece of program that has a *name* (e.g. ``show_message``, ``print``) and a set of *parentheses* ``()``. You can pass *parameters* into the *parentheses*, so the function will do things for you.
 
 We also used the ``print`` function on Line 4 to display a message to the shell (terminal).  This illustrates that we can control our program to **output** to different channels.  Think of your cellphone.  When you play music on your cellphone, you can choose to output the music through your headphones, the speakers on the phone, or a bluetooth speaker.  Here we can choose to output the message to the shell or to SenseHAT.  You need to use different **functions** to achieve that.  Later we can write program to output the message to other computers.
 
