@@ -12,7 +12,7 @@ A paragraph that explains the purpose and contents of the lesson
 
 .. sidebar:: CT Concepts
 
-    .. rubric:: Computational Thinking Skiils:
+    .. rubric:: Computational Thinking Skills:
 
     - **Skill 1**: description
     - **Skill 2**: description

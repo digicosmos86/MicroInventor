@@ -5,7 +5,7 @@ This curriculum is intentionally written as a set of structured "tutorials." It 
 What are the goals of MicroInventor?
 -----------------------------------------
 
-**The first and ultimate goal of the curriculum is to foster computational thinking skills.**  We want the students to be able to not only understand the key concepts in computational thinking, such as abstraction and automation, but also solve problems by practicing what they have learned.  We want the students to apply computational thinking skills more generically in other disciplines and in real life.  The progression of computational thinking skils follows the framework being developed in Paul Xu's doctoral dissertation.  The instructional activities will explicitly make connections between what the students are doing in this class and what they could do in other disciplines.
+**The first and ultimate goal of the curriculum is to foster computational thinking skills.**  We want the students to be able to not only understand the key concepts in computational thinking, such as abstraction and automation, but also solve problems by practicing what they have learned.  We want the students to apply computational thinking skills more generically in other disciplines and in real life.  The progression of computational thinking skills follows the framework being developed in Paul Xu's doctoral dissertation.  The instructional activities will explicitly make connections between what the students are doing in this class and what they could do in other disciplines.
 
 **The second goal of this curriculum is to introduce core concepts and ideas in computer science.** These include software/hardware, data type/structure, input/output, flow control, and networking.  The curriculum goes beyond programming languages and gives the students a brief overview of interconnected computing devices used in application.  The students will learn practical skills used by professionals every day in the industry.
 
@@ -17,7 +17,7 @@ The curriculum is project-based.  The students will build and code devices that 
 
 How are lessons structured?
 -----------------------------------------
-In order to accomodate the needs of different classrooms, each lesson will specify the time required, so that the teachers can have the flexibility in structuring the lesson over different sessions/meetings.  Each lesson has instructional goals for computer science skills, cross-discipline skills, and computational thinking skills as higher order goals.  The vocabulary and material required will also be listed.  There will be an assessment at the end of each lesson to provide feedback to the instructors, so they can plan their lessons accordingly.
+In order to accommodate the needs of different classrooms, each lesson will specify the time required, so that the teachers can have the flexibility in structuring the lesson over different sessions/meetings.  Each lesson has instructional goals for computer science skills, cross-discipline skills, and computational thinking skills as higher order goals.  The vocabulary and material required will also be listed.  There will be an assessment at the end of each lesson to provide feedback to the instructors, so they can plan their lessons accordingly.
 
 Tips on classroom management
 -----------------------------------------
