@@ -105,7 +105,103 @@ Notice that sometimes code can be too long to be shown on one line.  You can bre
 
 Why isn't my code working? (20 minutes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-A lot of the time the code simply does not work, which can be really frustrating.  Here we are going to break our code and see how Python behaves.  Sometimes Python will show us exactly where things go wrong, and why things go wrong.
+Often the code simply does not work, which can be really frustrating.  Here we are going to break our code and see how Python behaves.  Sometimes Python will show us exactly where things go wrong, and why things go wrong.
+
+.. rubric:: Misspelling ``sense_hat`` package name:
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 1
+
+    from sensehat import SenseHat
+    sense = SenseHat()
+
+    sense.show_message("Hello Python!")
+
+    Traceback (most recent call last):
+    File "/home/pi/Desktop/sense.py", line 1, in <module>
+        from sensehat import SenseHat
+    ImportError: No module named 'sensehat'
+
+.. rubric:: Misspelling ``SenseHat`` class name:
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 1
+
+    from sense_hat import Sensehat
+    sense = SenseHat()
+
+    sense.show_message("Hello Python!")
+
+    Traceback (most recent call last):
+    File "/home/pi/Desktop/sense.py", line 1, in <module>
+        from sense_hat import Sensehat
+    ImportError: cannot import name 'Sensehat'
+
+.. rubric:: Missing ``()``
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 2
+
+    from sensehat import SenseHat
+    sense = SenseHat
+
+    sense.show_message("Hello Python!")
+
+    Traceback (most recent call last):
+    File "/home/pi/Desktop/sense.py", line 4, in <module>
+        sense.show_message("Hello Python")
+    TypeError: show_message() missing 1 required positional argument: 'text_string'
+
+.. rubric:: Misspelling ``SenseHat()`` object
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 2
+
+    from sensehat import SenseHat
+    sense = Sensehat()
+
+    sense.show_message("Hello Python!")
+
+    Traceback (most recent call last):
+    File "/home/pi/Desktop/sense.py", line 2, in <module>
+        sense = Sensehat()
+    NameError: name 'Sensehat' is not defined
+    
+.. rubric:: Misspelling ``sense.show_message()`` function name
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 4
+
+    from sensehat import SenseHat
+    sense = Sensehat()
+
+    sense.show_Message("Hello Python!")
+
+    Traceback (most recent call last):
+    File "/home/pi/Desktop/sense.py", line 4, in <module>
+        sense.show_Message("Hello Python")
+    AttributeError: 'SenseHat' object has no attribute 'show_Message'
+
+.. rubric:: Missing quotation marks around the string
+
+.. code-block:: python
+    :linenos:
+    :emphasize-lines: 4
+
+    from sensehat import SenseHat
+    sense = Sensehat()
+
+    sense.show_message(Hello Python)
+
+    File "/home/pi/Desktop/sense.py", line 4
+        sense.show_message(Hello Python)
+                                  ^
+    SyntaxError: invalid syntax
 
 Review and Assessment (5 minutes)
 --------------------------------------------
