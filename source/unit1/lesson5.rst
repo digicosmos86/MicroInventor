@@ -145,7 +145,7 @@ Often the code simply does not work, which can be really frustrating.  Here we a
     :linenos:
     :emphasize-lines: 2
 
-    from sensehat import SenseHat
+    from sense_hat import SenseHat
     sense = SenseHat
 
     sense.show_message("Hello Python!")
@@ -161,7 +161,7 @@ Often the code simply does not work, which can be really frustrating.  Here we a
     :linenos:
     :emphasize-lines: 2
 
-    from sensehat import SenseHat
+    from sense_hat import SenseHat
     sense = Sensehat()
 
     sense.show_message("Hello Python!")
@@ -177,7 +177,7 @@ Often the code simply does not work, which can be really frustrating.  Here we a
     :linenos:
     :emphasize-lines: 4
 
-    from sensehat import SenseHat
+    from sense_hat import SenseHat
     sense = Sensehat()
 
     sense.show_Message("Hello Python!")
@@ -193,7 +193,7 @@ Often the code simply does not work, which can be really frustrating.  Here we a
     :linenos:
     :emphasize-lines: 4
 
-    from sensehat import SenseHat
+    from sense_hat import SenseHat
     sense = Sensehat()
 
     sense.show_message(Hello Python)

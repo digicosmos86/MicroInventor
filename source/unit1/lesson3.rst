@@ -1,3 +1,5 @@
+.. _lesson3:
+
 Lesson 3: A Sophisticated Calculator
 =====================================================
 

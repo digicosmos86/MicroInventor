@@ -2,3 +2,4 @@ build/
 *.html
 .vscode/
 settings.json
+*.docx

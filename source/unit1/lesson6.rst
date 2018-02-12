@@ -82,7 +82,7 @@ In the previous lesson, we wrote a program like this:::
 
 Begin the class by reviewing these questions.  The students may discuss these questions in groups first and then share these questions with the rest of the class.
 
-1. What is this program outputting the message to?
+1. What/where is this program outputting the message to?
 2. Can we output the message to other places/devices?  How can we do so?
 3. Can you imagine where else we might output this message to?
 
@@ -93,16 +93,14 @@ This image below could help you answer the above questions:
 
 What is a program? (10 minutes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The above image demonstrates what a program is.  We can think of programs as the mysterious machine shown in the image.  It takes some input, do some processing on the input, and produces some output.  In the case of the program we have written, we know that we output the message to the shell/SenseHAT. More formally, a program looks like this:
+The above image demonstrates what a program consists of.  We can think of programs as the mysterious machine shown in the image.  It takes some input, do some processing, and produces some output.  In the case of the program we have written, we know that we output the message to the shell/SenseHAT. More formally, a program looks like this:
 
 .. image:: http://1.bp.blogspot.com/-5wFubZaiZEI/T93PAS3UDkI/AAAAAAAAACg/ShB7-yjZctg/s1600/processing_data.jpg
     :align: center
 
 Then, what is our input in this program?  Ask the students to discuss in groups and guess.
 
-The inputs are basically the parameter values that we pass to the ``sense.show_message()`` and ``print()`` functions.
-
-We can actually restructure our program this way so that this structure is clearer:
+The inputs are basically the parameter values that we pass to the ``sense.show_message()`` and ``print()`` functions.  If this is not clear enough, we can actually restructure our program this way so that this structure is clearer.
 
 .. code-block:: python
     :linenos:
@@ -124,8 +122,6 @@ We can actually restructure our program this way so that this structure is clear
     sense.show_message(msg, scroll_speed = speed, 
                        text_colour = red, back_colour = blue)
 
-|
-
 .. note::
 
     The pound/hashtag sign ``#`` starts a comment.  You can write your notes in the code this way and Python will ignore it.  Other languages may use double slash ``//`` to do so.  Here we use comments to divide our code into initialization-input-process-output sections.  Comments will be greyed out in **Thonny Python**, which also means that these comments will be ignored.
@@ -134,16 +130,21 @@ We can actually restructure our program this way so that this structure is clear
 
     Notice that the ``# Process`` block.  Are there no processing step in our program?
 
-What did we just do in this program?  
+What did we just do in this program?
 
-Well we just defined a bunch of variables at the beginning of program and then passed them to the ``sense.show_message()`` function as parameters. Take a look at the Variable panel in your **Thonny Python**:
+Well we just defined a few variables at the beginning of program and then passed them to the ``sense.show_message()`` function as parameters. Take a look at the Variable panel in your **Thonny Python**:
 
 TODO: add a Thonny Python screenshot.
 
-When Python reads Line 14, it will automatically look up all these variable substitute them with their values.  So the code will eventually become something we are familiar with:::
+When Python reads Line 14, it will automatically look up all these variables and substitute them with their values.  So the code will eventually become something we are familiar with:::
 
     sense.show_message("Hello Python", scroll_speed = 0.05, 
                     text_colour = [255, 0, 0], back_colour = [0, 0, 255])
+
+    |
+
+.. tip::
+    It is better to demonstrate the process of substituting values with variables to the students.
 
 We don't need to write all programs this way but since we are learning to code, it is a good idea for us to stick to this structure for a while so we understand what is going on.
 
@@ -155,7 +156,7 @@ In the previous class we wrote code to have Python output 3 messages to SenseHAT
 
     You might want to have different variables as inputs, such as ``msg1``, ``msg2``, ``msg3``, etc.
 
-|
+
 
 The ``input()`` function (15 minutes)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
