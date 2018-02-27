@@ -125,7 +125,7 @@ Turns out that we got a ``string`` from this function.  When we added strings to
     
 Why?  It's because computers see things very differently from us.  Computers are only capable of seeing ``0`` and ``1``.  Those are called binary numbers.  For example, computers see ``2`` as ``10``, and ``3`` as ``11``.  How about ``7``?
 
-We can use `this worksheet <lesson7worksheet.pdf>`_.  Use 7 coins, fill the columns with coins.  However, remember, when you are finished, the columns have to be either empty or full.  After you are finished, write a 0 under the columns that are empty, and a 1 under those that are full.  You should get ``111`` after this.  How about ``9``?
+We can use `this worksheet <https://github.com/digicosmos86/MicroInventor/raw/56b08909e2ea8a9671a3f0093d6cc22fac416ae8/source/unit1/lesson7worksheet.pdf>`_.  Use 7 coins, fill the columns with coins.  However, remember, when you are finished, the columns have to be either empty or full.  After you are finished, write a 0 under the columns that are empty, and a 1 under those that are full.  You should get ``111`` after this.  How about ``9``?
 
 We can also use the ``bin()`` function in Python to get the binary versions of numbers:::
 
